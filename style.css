@@ -1,0 +1,68 @@
+body { color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Space Grotesk", sans-serif;
+    margin-bottom: 100px
+}
+
+header {
+    border-bottom: solid 2px #4f22de;
+    padding: 10px;
+    font-size: 32;
+    font-family:"Space Grotesk", sans-serif; ;
+    color:#4f22de;
+}
+
+section {
+background: #4f22de;
+padding-bottom: 80px;
+padding-top: 80px;
+display: flex;
+justify-content: center;
+}
+
+.CPT {
+    margin-right:5% ;
+
+}
+
+h1{
+    font-size: 40px;
+    
+}
+
+p {
+    font-size: 10px;
+}
+
+img {
+    height: 200px
+}
+
+.videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px
+}
+
+section {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cat img {
+opacity:0.5;
+}
+
+.cat {
+    background-color: black;
+}
+
+.cat img:hover {
+    opacity: 1.0;
+    border: 1px solid green
+}
+
+.cat h2 {
+    color: #4f22de
+}
